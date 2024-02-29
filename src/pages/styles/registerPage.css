@@ -1,0 +1,44 @@
+.registerPage {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__registerPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    width: 350px;
+    gap: 20px;
+}
+
+.form__registerPage p {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.form__camps {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__camps input {
+    padding: 8px;
+    font-size: 15px;
+    border: 1px solid #D3D3D3;
+}
+
+.form__registerPage button {
+    background-color: #F85555;
+    color: white;
+    padding: 8px;
+    margin-bottom: 25px;
+}
+
+.registerPage span {
+    color: #67b8e8;
+}

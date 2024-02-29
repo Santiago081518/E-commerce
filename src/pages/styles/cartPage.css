@@ -1,0 +1,16 @@
+.totalBuy {
+    margin: 20px 0 0 20px;
+}
+
+.totalBuy button {
+    color: white;
+    background-color: #F85555;
+    padding: 5px 40px;
+    margin-top: 10px;
+    transition: .2s;
+}
+
+.totalBuy button:hover {
+    transition: .2s;
+    transform: scale(1.1);
+}

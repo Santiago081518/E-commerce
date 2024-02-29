@@ -1,0 +1,30 @@
+.formPrice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formPrice form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formPrice div {
+    display: flex;
+    flex-direction: column;
+}
+
+.formPrice div input {
+    font-size: 15px;
+    padding: 8px;
+    border: 1px solid #D3D3D3;
+}
+
+.formPrice button {
+    margin-top: 20px;
+    color: white;
+    background-color: #F85555;
+    padding: 10px 40px;
+}

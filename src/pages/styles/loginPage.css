@@ -1,0 +1,74 @@
+.loginPage {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__loginPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    width: 400px;
+    gap: 20px;
+}
+
+.form__loginPage p {
+    font-size: 20px;
+}
+
+.form__camps {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__camps input {
+    padding: 8px;
+    font-size: 15px;
+    border: 1px solid #D3D3D3;
+}
+
+.form__loginPage button {
+    background-color: #F85555;
+    color: white;
+    padding: 8px;
+}
+
+.loginPage span {
+    color: #67b8e8;
+}
+
+.div__logout {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn__logout {
+    background-color: #F85555;
+    color: white;
+    padding: 10px 60px;
+    transition: .3s;
+}
+
+.btn__logout:hover {
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+@media (max-width: 1150px) {
+    .form__loginPage {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 500px;
+        width: 80%;
+        gap: 20px;
+    }
+}
